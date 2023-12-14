@@ -47,7 +47,7 @@ if answer5.lower() == "pete":
 else:
     print('Sorry! Correct answer is Pete')
 
-# turns score from in int to a string. You can't concatanate a number to strings. It will try to add the number to string which isn't possible
+# str() turns score from in int to a string. You can't concatanate a number to strings. It will try to add the number to string which isn't possible
 print("You got " + str(score) + " questions correct!")
 # calculate percentage:
 print("You got " + str((score / 5) * 100) + "%!")
